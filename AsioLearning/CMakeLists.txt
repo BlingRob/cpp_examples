@@ -12,4 +12,4 @@ link_directories(${Boost_LIBRARY_DIR})
 link_libraries(asio::asio boost::boost)
 
 add_subdirectory(Example1)
-add_subdirectory(Example2)
+add_subdirectory(port_scanner)
